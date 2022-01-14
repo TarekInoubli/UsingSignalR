@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.SignalR", "Chat.Signal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Domain", "Chat.Domain\Chat.Domain.csproj", "{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Console", "Chat.Console\Chat.Console.csproj", "{C7FB8A83-C735-418E-A720-5183178BDF90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FB8A83-C735-418E-A720-5183178BDF90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FB8A83-C735-418E-A720-5183178BDF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FB8A83-C735-418E-A720-5183178BDF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FB8A83-C735-418E-A720-5183178BDF90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
