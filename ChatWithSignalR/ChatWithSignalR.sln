@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.SignalR", "Chat.SignalR\Chat.SignalR.csproj", "{4BDFBFFA-659B-4586-BAEF-4E62B0672C27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Domain", "Chat.Domain\Chat.Domain.csproj", "{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4BDFBFFA-659B-4586-BAEF-4E62B0672C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDFBFFA-659B-4586-BAEF-4E62B0672C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BDFBFFA-659B-4586-BAEF-4E62B0672C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918AB9A2-4CD8-4158-91F7-3CD0470C7A85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
