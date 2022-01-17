@@ -7,7 +7,7 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-// Add the Hub as an endpoint
+// Setup SignalR routes
 app.MapHub<ChatHub>("/chat");
 
 app.Run();
