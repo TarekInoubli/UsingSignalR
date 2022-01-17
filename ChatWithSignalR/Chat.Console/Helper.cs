@@ -28,7 +28,7 @@ namespace Chat.Console
 
         private void _chatService_MessageReceived(Message obj)
         {
-            System.Console.WriteLine($"New Message:{obj.Body}");
+            System.Console.WriteLine($"{obj.Body}");
         }
 
         public async Task SendMessage(string? message)
