@@ -1,4 +1,5 @@
-using Chat.SignalR.Hubs;
+using Chat.Server;
+using Chat.Server.Service.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,8 +8,7 @@ builder.Services.AddSignalR();
 
 var app = builder.Build();
 
-// Setup SignalR routes
-//app.MapHub<ChatHub>("/chat");
-app.MapHub<StronglyTypedChatHub>("/chat");
+// Map SignalR Hub endpoints
+app.MapHub<ChatHub>(Constants.ChatHub);
 
 app.Run();
